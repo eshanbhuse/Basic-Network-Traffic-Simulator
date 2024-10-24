@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 // Serve static files from the public directory
-app.use(express.static('public'));
+app.use(express.static('docs'));
 
 // Simulating a basic network
 let networkNodes = ['A', 'B', 'C', 'D', 'E'];
